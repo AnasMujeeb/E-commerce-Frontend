@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://e-commerce-backend-git-main-anasmujeebuddin-8333s-projects.vercel.app/api',
 });
 
 // Request Interceptor (Automatically attach JWT token if available)
